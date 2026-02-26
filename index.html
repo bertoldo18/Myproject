@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+
+  <!-- Separate CSS file -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- ✅ PERSONAL INFORMATION -->
+    <header>
+      <img class="avatar" src="myimage.png" alt="Profile picture" />
+
+      <div class="title">
+        <h1>Elbert Almonicar Bulandres</h1>
+        <p>Student Portfolio</p>
+
+        <div class="chips">
+          <div class="chip"><strong>Course:</strong> BS Information Technology</div>
+          <div class="chip"><strong>Year:</strong> 3rd Year</div>
+          <div class="chip"><strong>School:</strong> Madredijos Community College</div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- 🎯 CAREER OBJECTIVE -->
+      <section>
+        <h2><span class="dot"></span>Career Objective</h2>
+        <p class="muted">
+          To become a skilled professional in the field of technology by continuously improving my
+          programming, problem-solving, and collaboration skills, and by contributing to meaningful
+          projects that help people and communities.
+        </p>
+      </section>
+
+      <div class="grid-2">
+
+        <!-- 🛠 SKILLS -->
+        <section>
+          <h2><span class="dot dot-green"></span>Skills</h2>
+          <ul>
+            <li>HTML, CSS (basic responsive design)</li>
+            <li>JavaScript (basic DOM and events)</li>
+            <li>PHP / MySQL (basic CRUD)</li>
+            <li>UI Design (simple layouts and clean styling)</li>
+            <li>Teamwork and communication</li>
+          </ul>
+        </section>
+
+        <!-- 👤 PERSONAL DETAILS -->
+        <section>
+          <h2><span class="dot"></span>Personal Details</h2>
+          <ul>
+            <li><strong>Location:</strong> Hagdan Santa Fe, Cebu</li>
+            <li><strong>Interests:</strong> Web Dev, Design, Systems, Mobile app</li>
+            <li><strong>Strengths:</strong> Consistent, curious, hardworking</li>
+          </ul>
+        </section>
+
+      </div>
+
+      <!-- 📂 PROJECTS -->
+      <section>
+        <h2><span class="dot"></span>Projects</h2>
+        <p class="muted">
+          Add your projects here. If you don’t have projects yet, you can list school activities or practice works.
+        </p>
+
+        <div class="projects">
+
+          <div class="project">
+            <h3>Project 1: Portfolio Website</h3>
+            <p>A responsive one-page portfolio showcasing my personal info and skills.</p>
+            <div class="tagrow">
+              <span class="tag">HTML</span><span class="tag">CSS</span>
+            </div>
+          </div>
+
+          <div class="project">
+            <h3>Project 2: Oteapid Milkshake Ordering System</h3>
+            <p>A web app for browsing and customizing milkshakes, placing orders online, and managing orders and sales through an admin dashboard.</p>
+            <div class="tagrow">
+              <span class="tag">PHP</span><span class="tag">Javascript</span><span class="tag">MySQL/span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 📞 CONTACT INFORMATION -->
+      <section>
+        <h2><span class="dot"></span>Contact Information</h2>
+        <div class="contact">
+          <a href="almonicar18@example.com">
+            <span>Email</span>
+            <strong>almonicar18@example.com</strong>
+          </a>
+          <a href="tel:+639001234567">
+            <span>Phone</span>
+            <strong>+63 9773077414</strong>
+          </a>
+          <a href="https://www.facebook.com/bulandres.elbert.1/" target="_blank" rel="noopener">
+            <span>Facebook</span>
+            <strong>facebook.com/yourprofile</strong>
+          </a>
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener">
+            <span>GitHub</span>
+            <strong>github.com/yourusername</strong>
+          </a>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      © <span id="year"></span> YOUR NAME HERE. All rights reserved.
+    </footer>
+
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
